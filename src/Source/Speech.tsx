@@ -181,6 +181,13 @@ export default function Speech() {
       goundTruthAudio03,
     ],
     [
+      unprocessedSpec03,
+      nvsrSpec03,
+      audioSRSpec03,
+      flashSRSpec03,
+      goundTruthSpec03,
+    ],
+    [
       unprocessedAudio00,
       nvsrAudio00,
       audioSRAudio00,
@@ -193,13 +200,6 @@ export default function Speech() {
       audioSRSpec00,
       flashSRSpec00,
       goundTruthSpec00,
-    ],
-    [
-      unprocessedSpec03,
-      nvsrSpec03,
-      audioSRSpec03,
-      flashSRSpec03,
-      goundTruthSpec03,
     ],
     [
       unprocessedAudio04,
