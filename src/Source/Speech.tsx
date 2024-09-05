@@ -88,7 +88,7 @@ export default function Speech() {
   ]
   return (
     <AudioSpecTable
-      tableName='Speech'
+      tableName='Speech (8 kHz to 48 kHz)'
       theadMetaArray={theadMetaArray}
       tableAudio={tableAudio}
       audioWidth={'180px'}
