@@ -6,7 +6,7 @@ import fig from './Source/image/Fig1.png'
 import Title from './Component/Title'
 import Section from './Component/Section'
 import EnvToClean from './Source/EnvToClean'
-import CleanToEnv from './Source/CleanToEnv'
+import Speech from './Source/Speech'
 import EnvToEnv from './Source/EnvToEnv'
 
 const style = {
@@ -23,7 +23,7 @@ function App() {
   return (
     <div className='App' style={style}>
       <Title />
-      <h1>Coming soon</h1>
+      <Speech />
       {/** 
       <div style={iframeContainerStyle}>
         <iframe
