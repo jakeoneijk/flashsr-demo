@@ -72,7 +72,7 @@ export default function AudioSpecTable({
         {tableAudio.map((rowAudio, index) => {
           return index % 2 === 0 ? (
             <tr>
-              <td style={tdMidStyle}>{index}</td>
+              <td style={tdMidStyle}>{index / 2}</td>
               {rowAudio.map((tableData) => {
                 return (
                   <td style={tdMidStyle}>

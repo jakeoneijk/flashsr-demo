@@ -4,10 +4,10 @@ import { paperContent } from './Config/PaperContent'
 import fig from './Source/image/Fig1.png'
 
 import Title from './Component/Title'
-import Section from './Component/Section'
-import EnvToClean from './Source/EnvToClean'
 import Speech from './Source/Speech'
-import EnvToEnv from './Source/EnvToEnv'
+import Music from './Source/Music'
+import Soundeffect from './Source/SoundEffect'
+import Section from './Component/Section'
 
 const style = {
   display: 'flex',
@@ -23,7 +23,6 @@ function App() {
   return (
     <div className='App' style={style}>
       <Title />
-      <Speech />
       {/** 
       <div style={iframeContainerStyle}>
         <iframe
@@ -35,16 +34,15 @@ function App() {
           allowFullScreen
         />
       </div>
-      
       <Section name='Abstract' content={paperContent.abstract}/>
       <div style={{margin: 'auto'}}>
         <img style={{'width':'500px', padding:'40px'}} src={fig}/>
       </div>
-      <EnvToClean/>
-      <CleanToEnv/>
-      <EnvToEnv/>
-      <Section name='References' content={paperContent.reference}/>
       */}
+      <Speech />
+      <Music />
+      <Soundeffect />
+      {/** <Section name='References' content={paperContent.reference} />*/}
     </div>
   )
 }
