@@ -146,20 +146,6 @@ export default function Speech() {
   ]
   const tableAudio: Array<Array<any>> = [
     [
-      unprocessedAudio00,
-      nvsrAudio00,
-      audioSRAudio00,
-      flashSRAudio00,
-      goundTruthAudio00,
-    ],
-    [
-      unprocessedSpec00,
-      nvsrSpec00,
-      audioSRSpec00,
-      flashSRSpec00,
-      goundTruthSpec00,
-    ],
-    [
       unprocessedAudio01,
       nvsrAudio01,
       audioSRAudio01,
@@ -193,6 +179,20 @@ export default function Speech() {
       audioSRAudio03,
       flashSRAudio03,
       goundTruthAudio03,
+    ],
+    [
+      unprocessedAudio00,
+      nvsrAudio00,
+      audioSRAudio00,
+      flashSRAudio00,
+      goundTruthAudio00,
+    ],
+    [
+      unprocessedSpec00,
+      nvsrSpec00,
+      audioSRSpec00,
+      flashSRSpec00,
+      goundTruthSpec00,
     ],
     [
       unprocessedSpec03,
