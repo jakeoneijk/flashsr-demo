@@ -1,14 +1,18 @@
 export const paperContent = {
-  title: 'FlashSR',
-  paperInfo: '',
-  //'Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2024',
+  title:
+    'FlashSR: One-step Versatile Audio Super-resolution via Diffusion Distillation',
+  paperInfo:
+    'Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2025',
   author: 'Jaekwon Im, Juhan Nam',
   affiliation:
     'Graduate School of Culture Technology, KAIST, Republic of Korea',
   abstract:
-    'Properly setting up recording conditions, including microphone type and placement, room acoustics, and ambient noise, is essential to obtaining the desired acoustic characteristics of speech. In this paper, we propose Diff-R-EN-T, a Diffusion model for Recording ENvironment Transfer which transforms the input speech to have the recording conditions of a reference speech while preserving the speech content. Our model comprises the content enhancer, the recording environment encoder, and the diffusion decoder which generates the target mel-spectrogram by utilizing both enhancer and encoder as input conditions. We evaluate DiffRENT in the speech enhancement and acoustic matching scenarios. The results show that DiffRENT generalizes well to unseen environments and new speakers. Also, the proposed model achieves superior performances in objective and subjective evaluation.',
-  reference: '',
-  //'[1] Jiaqi Su, Zeyu Jin, and Adam Finkelstein. Acoustic matching by embedding impulse responses. In ICASSP 2020-2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), pages 426–430. IEEE, 2020. \n [2] Haohe Liu, Xubo Liu, Qiuqiang Kong, Qiao Tian, Yan Zhao, DeLiang Wang, Chuanzeng Huang, and Yuxuan Wang. VoiceFixer: A Unified Framework for High-Fidelity Speech Restoration. In Proc. Interspeech 2022, pages 4232–4236, 2022.',
+    'Versatile audio super-resolution (SR) is the challenging task of restoring high-frequency components from low-resolution audio with sampling rates between 4kHz and 32kHz in various domains such as music, speech, and sound effects. Previous diffusion-based SR methods suffer from slow inference due to the need for a large number of sampling steps. In this paper, we introduce FlashSR, a single-step diffusion model for versatile audio super-resolution aimed at producing 48kHz audio. FlashSR achieves fast inference by utilizing diffusion distillation with three objectives: distillation loss, adversarial loss, and distribution-matching distillation loss. We further enhance performance by proposing the SR Vocoder, which is specifically designed for SR models operating on mel-spectrograms. FlashSR demonstrates competitive performance with the current state-of-the-art model in both objective and subjective evaluations while being approximately 22 times faster.',
+  reference: [
+    'H. Liu, W. Choi, X. Liu, Q. Kong, Q. Tian, and D. Wang, “Neural vocoder is all you need for speech superresolution,” in INTERSPEECH, p. 4227–4231, 2022',
+    'H. Liu, K. Chen, Q. Tian, W. Wang, and M. D. Plumbley, “Audiosr: Versatile audio super-resolution at scale,” in ICASSP, pp. 1076–1080, IEEE, 2024.',
+  ],
   contactLink: 'https://jakeoneijk.github.io/',
-  paperLink: 'https://arxiv.org/abs/2401.08102',
+  paperLink: '',
+  codeLink: '',
 }

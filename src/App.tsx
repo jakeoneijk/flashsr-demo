@@ -34,15 +34,20 @@ function App() {
           allowFullScreen
         />
       </div>
-      <Section name='Abstract' content={paperContent.abstract}/>
-      <div style={{margin: 'auto'}}>
-        <img style={{'width':'500px', padding:'40px'}} src={fig}/>
-      </div>
       */}
+      <Section name='Abstract' content={paperContent.abstract} />
+      <div style={{ margin: 'auto' }}>
+        <img style={{ width: '1000px', padding: '40px' }} src={fig} />
+      </div>
       <Speech />
       <Music />
       <Soundeffect />
-      {/** <Section name='References' content={paperContent.reference} />*/}
+      <Section
+        name='References'
+        content={paperContent.reference
+          .map((item, index) => `[${index + 1}] ${item}`)
+          .join(' \n ')}
+      />
     </div>
   )
 }

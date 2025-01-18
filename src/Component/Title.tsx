@@ -1,5 +1,6 @@
 import { paperContent } from '../Config/PaperContent'
 import arxiv from '../Source/image/ArXiv.png'
+import github from '../Source/image/GitHub.png'
 import Button from './Button'
 
 const titleContainerStyle = {
@@ -79,28 +80,43 @@ export default function Title() {
       </div>
       <div style={authorStyle}>{paperContent.author}</div>
       <div style={affiliationStyle}>{paperContent.affiliation}</div>
-      {/** 
-      <div style={linkContainerStyle}>
-        <Button onClick={() => openLink(paperContent.contactLink)}>
-          Contact
-        </Button>
-      </div>
-      
+
       <div style={linkBankStyle}>
         <div style={linkContainerStyle}>
-          <Button onClick={() => openLink(paperContent.paperLink)}>
+          <Button onClick={() => openLink(paperContent.contactLink)}>
+            Contact
+          </Button>
+        </div>
+        <div style={linkContainerStyle}>
+          <Button
+            onClick={
+              paperContent.paperLink !== ''
+                ? () => openLink(paperContent.paperLink)
+                : () => {
+                    alert('coming soon!')
+                  }
+            }
+          >
             <img style={{ width: '30px', marginRight: '5px' }} src={arxiv} />
             Paper
           </Button>
         </div>
+        <div style={linkContainerStyle}>
+          <Button
+            onClick={
+              paperContent.codeLink !== ''
+                ? () => openLink(paperContent.codeLink)
+                : () => {
+                    alert('coming soon!')
+                  }
+            }
+          >
+            <img style={{ width: '30px', marginRight: '5px' }} src={github} />
+            Code
+          </Button>
+        </div>
       </div>
       <hr style={hrStyle} />
-      <div style={linkListStyle}>
-        <a href='/test set meta data.yaml' download='test set meta data.yaml'>
-          test set meta data.yaml
-        </a>
-      </div>
-      */}
     </div>
   )
 }

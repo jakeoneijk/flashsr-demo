@@ -120,13 +120,13 @@ export default function Music() {
       color: '#4D97EF',
     },
     {
-      name: 'NVSR-ResUNet',
+      name: 'NVSR-ResUNet [1]',
       miniTopDescription: '',
       description: '',
       color: '#C00909',
     },
     {
-      name: 'AudioSR',
+      name: 'AudioSR [2]',
       miniTopDescription: '100 NFEs',
       description: '',
       color: '#C00909',
