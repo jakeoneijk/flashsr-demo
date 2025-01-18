@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/flashsr-demo/static/css/main.e6c13ad2.css",
-    "main.js": "/flashsr-demo/static/js/main.3882672a.js",
+    "main.js": "/flashsr-demo/static/js/main.133dd52e.js",
     "static/js/787.14357702.chunk.js": "/flashsr-demo/static/js/787.14357702.chunk.js",
+    "static/media/Fig1.png": "/flashsr-demo/static/media/Fig1.40eb125fc82ed4f54ca8.png",
     "static/media/00_3_AudioSR.wav": "/flashsr-demo/static/media/00_3_AudioSR.7248cd5317bbfd45f3db.wav",
     "static/media/01_3_AudioSR.wav": "/flashsr-demo/static/media/01_3_AudioSR.eaa8ecf7b9727e8d70ce.wav",
     "static/media/02_3_AudioSR.wav": "/flashsr-demo/static/media/02_3_AudioSR.8f667419e0029e69988c.wav",
@@ -103,13 +104,15 @@
     "static/media/01_0_lr_audio.png": "/flashsr-demo/static/media/01_0_lr_audio.e03fadca4c1500b65991.png",
     "static/media/03_0_lr_audio.png": "/flashsr-demo/static/media/03_0_lr_audio.8f81d44e749dcae4508a.png",
     "static/media/08_0_lr_audio.png": "/flashsr-demo/static/media/08_0_lr_audio.94c189d8be68a978b29f.png",
+    "static/media/ArXiv.png": "/flashsr-demo/static/media/ArXiv.9f562e0565a9ac78f464.png",
+    "static/media/GitHub.png": "/flashsr-demo/static/media/GitHub.a7cb412dfa89787a0e7a.png",
     "index.html": "/flashsr-demo/index.html",
     "main.e6c13ad2.css.map": "/flashsr-demo/static/css/main.e6c13ad2.css.map",
-    "main.3882672a.js.map": "/flashsr-demo/static/js/main.3882672a.js.map",
+    "main.133dd52e.js.map": "/flashsr-demo/static/js/main.133dd52e.js.map",
     "787.14357702.chunk.js.map": "/flashsr-demo/static/js/787.14357702.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.3882672a.js"
+    "static/js/main.133dd52e.js"
   ]
 }
