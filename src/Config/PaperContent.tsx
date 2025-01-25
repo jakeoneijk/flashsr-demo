@@ -13,6 +13,6 @@ export const paperContent = {
     'H. Liu, K. Chen, Q. Tian, W. Wang, and M. D. Plumbley, “Audiosr: Versatile audio super-resolution at scale,” in ICASSP, pp. 1076–1080, IEEE, 2024.',
   ],
   contactLink: 'https://jakeoneijk.github.io/',
-  paperLink: '',
-  codeLink: '',
+  paperLink: 'https://arxiv.org/abs/2501.10807',
+  codeLink: 'https://github.com/jakeoneijk/FlashSR_Inference',
 }
